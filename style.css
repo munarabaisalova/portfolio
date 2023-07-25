@@ -1,0 +1,372 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: rgb(236, 231, 231);
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container {
+    width: 1100px;
+    background: greenyellow;
+    
+}
+.blocks {
+    display: flex;justify-content: space-around;
+    align-items: center;
+}
+.blocks1 {
+    margin: 20px;
+    width: 230px;
+    height: 300px;
+    border-radius: 40px;
+  
+}
+.blocks1 img {
+    width: 230px;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 10px blue;
+ animation: mun 4s infinite;
+ transition: 1s;
+ 
+
+}
+@keyframes mun {
+    0% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+.text {
+    color:gray;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 500;
+   
+}
+i {
+    color:blue;
+    font-size: 25px;
+    font-style: oblique;
+}
+p {
+    color:blue;
+    font-size: 25px;
+    font-style: oblique;
+}
+.icons  i{
+    color: blue;
+    font-size: 30px;
+    margin: 10px;
+    transition: 2s;
+}
+.icons :hover {
+    color: red;
+    transform: rotate(360deg);
+}
+.divs {
+    width: 900px;
+    height: 200px;
+  background-image: url(https://d7hftxdivxxvm.cloudfront.net/?height=630&quality=80&resize_to=fill&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2F2P6t_Yt6dF0TNN76dlp-_Q%252F3417757448_4a6bdf36ce_o.jpg&width=1200);
+  background-position: 0%;
+  background-size: cover;
+  
+    margin-left: 100px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 50px;
+    transition: 3s;
+   
+}
+.divs:hover {
+    box-shadow: 0px 0px 10px 10px gray;
+    transform: scale(1.1);
+}
+.divs h2 {
+    color: blue;
+    font-size: 35px;
+    font-style: italic;
+}
+ol li {
+    color:white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.dew {
+    display: flex;
+    justify-content:center;
+    
+}
+.text-r {
+    color: blue;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+}
+.dew {
+    width: 950px;
+    height: 200px;
+    background:rgb(119, 225, 119);
+    border-radius: 30px;
+    
+    margin-left: 100px;
+}
+ul li {
+    color:blue;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 80px;
+}
+.image {
+    display: flex;
+    justify-content: space-around;
+    width: 950px;
+    height: 300px;
+    border-radius: 30px;
+   background:white;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+  
+}
+.image img {
+    padding-top: 40px;
+    width: 250px;
+    height: 200px;
+    transition: 2s;
+}
+.image img:hover {
+
+    transform: rotate(360deg);
+    transform: scale(1.1);
+}
+.dick iframe {
+    width: 950px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.divs1 {
+    width: 900px;
+    height: 200px;
+  background-image: url(https://bipbap.ru/wp-content/uploads/2017/04/2-1.jpg);
+  background-position: 0%;
+  background-size: cover;
+  
+    margin-left: 100px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.divs1 h2 {
+    color:white;
+    font-size: 35px;
+    font-style: italic;
+}
+
+@media (max-width:760px) {
+    .blocks1 img {
+        margin-left: 100px;
+        margin-top: 50px;
+        height: 250px;
+        width: 200px;
+    } 
+    .divs {
+       width: 700px;
+       margin-left: 250px;
+    }
+    .dew {
+        width: 750px;
+        margin-left: 250px;  
+    }
+    .divs1 {
+        width: 700px;
+        margin-left: 250px;  
+    }
+    .image {
+        width: 750px;
+        margin-left: 250px; 
+        height: 220px;
+    }
+    .image img {
+        width: 150px;
+        height: 150px;
+    }
+    .dick iframe {
+        width: 750px;
+        height: 300px;
+        margin-left: 220px;
+    }
+}
+@media (max-width:500px){
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dick iframe {
+   
+    margin-left: 240px;
+}
+.blocks1 img  {
+    margin-left: 150px;
+}
+}
+@media (max-width:400px){
+   
+    .blocks {
+        display: flex;
+      
+        flex-wrap: wrap;
+      
+    }
+  
+    .blocks1 img  {
+        margin-left: 140px;
+        width: 150px;
+        height: 200px;
+    }
+    .text {
+      font-size: 22px;
+    }
+    .tex2 p {
+font-size: 14px;
+    }
+    .tex2 i {
+        font-size: 14px;
+            }
+       .tex2 {
+        margin-right: 40px;
+       }
+        
+    
+    .divs {
+        width: 400px;
+        margin-left: 140px;
+     }
+     .divs1 {
+        width: 400px;
+        margin-left: 140px;  
+    }
+    .image {
+         width: 400px;
+        margin-left: 140px; 
+        height: 220px; 
+       
+    }
+    .image img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 120px;
+        height: 120px;
+    }
+    .dick iframe {
+        width: 400px;
+        height: 200px;
+        margin-left: 140px;
+    }
+    .divs1 {
+        width: 350px;
+        height: 150px;
+        margin-left: 140px; 
+    }
+    .divs1 h2 {
+        font-size: 20px;
+    }
+    .dew {
+        width: 400px;
+       margin-left: 140px;  
+    }
+    .text-r {
+        font-size: 22px;
+    }
+    ul li {
+        font-size: 12px;
+    }
+    .divs h2 {
+        font-size: 22px;
+    }
+    }
+    @media (max-width:320px){
+   
+        .blocks {
+            display: flex;
+          
+            flex-wrap: wrap;
+          
+        }
+      
+        .blocks1 img  {
+            margin-left: 140px;
+            width: 120px;
+            height: 170px;
+        }
+        .text {
+          font-size: 22px;
+        }
+        .tex2 p {
+    font-size: 14px;
+        }
+        .tex2 i {
+            font-size: 14px;
+                }
+           .tex2 {
+            margin-right: 40px;
+           }
+            
+        
+        .divs {
+            width: 270px;
+            margin-left: 140px;
+         }
+         .divs1 {
+            width: 250px;
+            margin-left: 100px;  
+        }
+        .image {
+             width: 300px;
+            margin-left: 140px; 
+            height: 180px; 
+           
+        }
+        .image img {
+          
+            width: 80px;
+            height: 100px;
+        }
+        .dick iframe {
+            width: 300px;
+            height: 200px;
+            margin-left: 140px;
+        }
+        .divs1 {
+            width: 300px;
+            height: 150px;
+            margin-left: 140px; 
+        }
+        .divs1 h2 {
+            font-size: 20px;
+        }
+        .dew {
+            width: 300px;
+           margin-left: 140px;  
+        }
+        .text-r {
+            font-size: 22px;
+        }
+        ul li {
+            font-size: 10px;
+        }
+        .divs h2 {
+            font-size: 22px;
+        }
+        }
